@@ -1,14 +1,14 @@
 Package: com.foggy.whitensimple
 Name: White-n-Simple
-Version: 1.1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Description: A theme with beautiful icons!
 Maintainer: Foggy <foggyj12345@gmail.com>
 Author: Foggy <foggyj12345@gmail.com>
 Section: Themes
 Depends: com.spark.snowboard
-Filename: /files/whitensimple/debs/WhiteNSimple_iphoneos-arm_1.1.deb
-Size: 446388
-MD5sum: 7aa37228412cea84cc4df1f0ce15b76c
-SHA1: 6fc98054d53a98353330685871e8127d5a8ba5c9
-SHA256: 3c5967f280df872bcdb3733267c46db0ee28bc841c0d73b790c45b1fd6e6c1e0
+Filename: /files/whitensimple/debs/WhiteNSimple_iphoneos-arm_1.1-1.deb
+Size: 446424
+MD5sum: 9C25AED06D2A10C37F9A11DA10C3FC7B
+SHA1: 600049d03a58549797fd4cb2ecd81fc0bd456157
+SHA256: 468d5a8595676115d936146707334ae38bd3a435494f9d7daa2e9e412a8a9669
