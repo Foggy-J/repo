@@ -7,7 +7,7 @@ Maintainer: Foggy <foggyj12345@gmail.com>
 Author: Foggy <foggyj12345@gmail.com>
 Section: Themes
 Depends: com.spark.snowboard
-Filename: files/whitensimple/debs/WhiteNSimple_iphoneos-arm_1.1.deb
+Filename: /files/whitensimple/debs/WhiteNSimple_iphoneos-arm_1.1.deb
 Size: 446388
 MD5sum: 7aa37228412cea84cc4df1f0ce15b76c
 SHA1: 6fc98054d53a98353330685871e8127d5a8ba5c9
