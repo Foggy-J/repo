@@ -1,15 +1,14 @@
 Package: com.foggy.whitensimple
-Name: White-n-Simple
 Version: 1.1
 Architecture: iphoneos-arm
-Description: A simple and minimalistic white theme!
 Maintainer: Foggy <foggyj12345@gmail.com>
-Author: Foggy <foggyj12345@gmail.com>
-Section: Themes
-Depends: com.spark.snowboard
-Filename: /files/whitensimple/debs/WhiteNSimple_1.1.deb
+Filename: ./debs/WhiteNSimple_1.1.deb
 Size: 446394
 MD5sum: a32568f631b72ae0f276efc9db4a8c60
 SHA1: ef6891590b0dc297be619fa899ef45b370c79e83
 SHA256: f99f07fe834265baab68e17da0a282cc0cf661368f75892853b64b4c773b2dbf
-Depiction: https://foggy-j.github.io/repo/files/whitensimple/
+Section: Themes
+Description: A simple and minimalistic white theme!
+Author: Foggy <foggyj12345@gmail.com>
+Name: White-n-Simple
+
