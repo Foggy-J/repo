@@ -3,12 +3,13 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Foggy <foggyj12345@gmail.com>
 Filename: ./debs/WhiteNSimple_1.1.deb
-Size: 446394
-MD5sum: a32568f631b72ae0f276efc9db4a8c60
-SHA1: ef6891590b0dc297be619fa899ef45b370c79e83
-SHA256: f99f07fe834265baab68e17da0a282cc0cf661368f75892853b64b4c773b2dbf
+Size: 446424
+MD5sum: 0ebbdedbd7a594237dae988da0a62fd2
+SHA1: b92f94852498c7629fdedef12676a19c23d3a84c
+SHA256: e056dbd7fc0d2e1cd4ea3b8fc153b6eeabaabd64bcf86a3fa99ebdec56583c3f
 Section: Themes
 Description: A simple and minimalistic white theme!
 Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/files/whitensimple/
 Name: White-n-Simple
 
