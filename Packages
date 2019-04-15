@@ -1,30 +1,15 @@
-Package: com.foggy.whitensimple
-Version: 1.1
+Package: com.foggy.modernised
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Foggy <foggyj12345@gmail.com>
-Filename: ./debs/WhiteNSimple_1.1.deb
-Size: 446424
-MD5sum: 0ebbdedbd7a594237dae988da0a62fd2
-SHA1: b92f94852498c7629fdedef12676a19c23d3a84c
-SHA256: e056dbd7fc0d2e1cd4ea3b8fc153b6eeabaabd64bcf86a3fa99ebdec56583c3f
+Filename: ./debs/Modernised_1.0.deb
+Size: 513908
+MD5sum: 96529f46f7b9d9232a59a153e1af7c4d
+SHA1: 12f0a4a60913cb266fc6afcb4ed117c0fde081e6
+SHA256: a10d71e2fdf236ce1d9a2f6aed32420f07a360e5f7ff8d95354d6f121b65f471
 Section: Themes
 Description: A simple and minimalistic white theme!
 Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/files/whitensimple/
-Name: White-n-Simple
-
-Package: com.foggy.whitensimple
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: Foggy <foggyj12345@gmail.com>
-Filename: ./debs/WhiteNSimple_1.2.deb
-Size: 513912
-MD5sum: b92c12c05afd6358b1eaae8de29410ae
-SHA1: 82ab2f967b60ab485d0ed7263ad94dbf52fb9896
-SHA256: 722cd7de097ed9e03564b8baef55c0d18688558005fbf8acb2317df150ed25b7
-Section: Themes
-Description: A simple and minimalistic white theme!
-Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/files/whitensimple/
-Name: White-n-Simple
+Name: Modernised
 
