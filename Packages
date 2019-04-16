@@ -28,3 +28,18 @@ Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/files/whitensimple/
 Name: Modernised
 
+Package: com.foggy.whitestuff
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Filename: ./debs/WhiteStuff_1.0.deb
+Size: 815328
+MD5sum: 9404e14df737ea3048785548519e1ff8
+SHA1: 144d248bd4f4639668026c455e307e8a3f6d7177
+SHA256: 1103b4d6716c42d9913f4a6fbbed822a301f9ada46f03a1aa90433d0c4a91353
+Section: Themes
+Description: A purple gradient icon theme with bright white backgrounds.
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/files/whitestuff/
+Name: WhiteStuff
+
