@@ -28,6 +28,36 @@ Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/files/whitensimple/
 Name: Modernised
 
+Package: com.foggy.repoicons
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Filename: ./debs/RepoIcons_1.0.deb
+Size: 11190
+MD5sum: 3198dce48ce342a6e760e0b0e64c391c
+SHA1: af54492d56744e20dd39ce3c04b949677209026b
+SHA256: c8dd4064f232000c15676b9fdec25020db851c1aafdc913e74a772f510f852ed
+Section: System
+Description: Repository icons for Foggy's Repository.
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/files/repoicons/
+Name: Foggy's Repository Icons
+
+Package: com.foggy.whitensimple
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Filename: ./debs/WhiteNSimple_1.0.deb
+Size: 513914
+MD5sum: 9bc676a7d625a53f192b252627824a69
+SHA1: 371f7979c4f424fd641dd81b4412d2cc803ee02d
+SHA256: 72be12bc6ec04d360349e4dfb21c0945f2f3c7f35bde2508ef2e95eb9c5c4a3a
+Section: Foggy - Themes
+Description: A simple and minimalistic white theme!
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/files/whitensimple/
+Name: White-n-Simple
+
 Package: com.foggy.whitestuff
 Version: 1.0
 Architecture: iphoneos-arm
