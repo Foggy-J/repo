@@ -13,3 +13,18 @@ Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/files/whitensimple/
 Name: Modernised
 
+Package: com.foggy.modernised
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Filename: ./debs/Modernised_1.1.deb
+Size: 589232
+MD5sum: 9fa51372a08cc5da81fe35dfab3fccee
+SHA1: ffd5d66bdf557cda884d1fc3664786a26605b59d
+SHA256: df512454327c55340d462702ba6855fadcbdd0d41a8a9cbd831d3fdecc278fa5
+Section: Themes
+Description: A simple and minimalistic white theme!
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/files/whitensimple/
+Name: Modernised
+
