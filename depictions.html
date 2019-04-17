@@ -9,7 +9,6 @@
         <link rel="icon" href="./CydiaIcon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-
     <body>
         <script>
             if (window.location.search.substring(1)) {
@@ -18,6 +17,7 @@
             };
 
             $.getJSON('files/' + window.location.search.substring(1) + '.json', function(data) {
+                
                 document.title = "Foggy's Repository - " + data.name;
                 document.getElementById('name').innerHTML = data.name;
                 document.getElementById('shortd').innerHTML = data.shortdesc;
@@ -26,48 +26,47 @@
                 document.getElementById('author').innerHTML = data.author;
                 document.getElementById('version').innerHTML = data.version;
                 document.getElementById('lastupdate').innerHTML = data.lastupdate;
+                
+                
+
+                if (data.links) {
+                    document.getElementById('link-head').innerHTML = "<span class='fas fa-link'></span> Other Links";
+                    document.getElementById('links').innerHTML = data.links;
+                }
+
             });
         </script>
         <div class="container" style="padding-top:10px">
             <div class="jumbotron" align="center">
                 <h1 class="display-4" id="name">?</h1>
                 <hr class="my-4">
-                <p id="shortd">?</p>
-                <!-- <img src="images/ex1.png" class="rounded" alt="..." width="200"> --> </div>
-            <div class="row">
-                <div class="col-lg-9">
-                    <div>
-                        <h4><span class="fas fa-info-circle"></span> Description</h4>
-                        <p id="longd">?</p>
-
-                        <div>
-                            <h4 style="padding-bottom: 10px"><span class="fas fa-edit"></span> Changelog</h4>
-                            <ul class="list-group" style="padding-bottom:10px">
-                                <div id="changelog">?</div>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <h4 style="text-align: right">Author <span class="fas fa-pen-fancy"></span></h4>
-                        <p id="author" style="text-align: right">?</p>
-
-                        <h4 style="text-align: right">Version <span class="fas fa-code-branch"></span></h4>
-                        <p id="version" style="text-align: right">?</p>
-
-                        <h4 style="text-align: right">Last Update <span class="fas fa-calendar-alt"></span></h4>
-                        <p id="lastupdate" style="text-align: right">?</p>
-                    </div>
-                </div>
+                <p id="shortd" style="color: #9e9e9e">?</p>
+                <!-- <img src="images/ex1.png" class="rounded" alt="..." width="200"> -->
             </div>
+
+            <div style="text-align: center">
+                <h4><span class="fas fa-pen-fancy"></span> Author</h4><h5 id="author">?</h5>
+                <h4><span class="fas fa-code-branch"></span> Latest Version</h4><h5 id="version">?</h5>
+                <h4><span class="fas fa-calendar-alt"></span> Last Update</h4><h5 id="lastupdate" style="padding-bottom: 15px">?</h5>
+            </div>
+
+            <h4><span class="fas fa-info-circle"></span> Description</h4>
+            <p id="longd">?</p>
+            <div>
+                <h4 style="padding-bottom: 10px"><span class="fas fa-edit"></span> Changelog</h4>
+                <ul class="list-group" style="padding-bottom:10px">
+                    <div id="changelog">?</div>
+                </ul>
+            </div>
+
+            <h4 style="padding-top: 10px; padding-bottom: 5px" id="link-head"></h4>
+            <div id="links" style="padding-bottom: 10px"></div>
         </div>
     </body>
     <footer style="padding-top: 10px; padding-bottom: 15px">
         <div class="container">
             <a href="https://foggy-j.github.io/repo/" class="list-group-item" target="_blank">View Repository Homepage</a>
-            <p style="text-align: right; padding-top: 10px; color: #CDCDCD">Website uses <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>!</p>
+            <p style="text-align: right; padding-top: 10px; color: #CDCDCD">This website uses <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>!</p>
         </div>
     </footer>
 </html>
