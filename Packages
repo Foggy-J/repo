@@ -17,15 +17,16 @@ Package: com.foggy.modernised
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Foggy <foggyj12345@gmail.com>
+Depends: com.foggy.repoicons
 Filename: ./debs/Modernised_1.1.deb
-Size: 589232
-MD5sum: 9fa51372a08cc5da81fe35dfab3fccee
-SHA1: ffd5d66bdf557cda884d1fc3664786a26605b59d
-SHA256: df512454327c55340d462702ba6855fadcbdd0d41a8a9cbd831d3fdecc278fa5
+Size: 589250
+MD5sum: f1c534fdcfa3b6c87bd3dd21ca1cbe94
+SHA1: 7350c639d41051a4aac18260b8ef890328fed221
+SHA256: c09afb01133d280c02b77f3cfabd534be27dda7892f58222ee7818091065c36f
 Section: Themes
 Description: A simple and minimalistic white theme!
 Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/files/whitensimple/
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.modernised
 Name: Modernised
 
 Package: com.foggy.repoicons
@@ -34,27 +35,28 @@ Architecture: iphoneos-arm
 Maintainer: Foggy <foggyj12345@gmail.com>
 Filename: ./debs/RepoIcons_1.0.deb
 Size: 11190
-MD5sum: 3198dce48ce342a6e760e0b0e64c391c
-SHA1: af54492d56744e20dd39ce3c04b949677209026b
-SHA256: c8dd4064f232000c15676b9fdec25020db851c1aafdc913e74a772f510f852ed
+MD5sum: 1ff3f3a8f195c727f219dfc6b432ac38
+SHA1: b58a6e829c2846167d1f8f65020882fec6155128
+SHA256: 78c2c84ed671891de9caf816a5412a494be00ce0c082716b0c8f5f08c50acf15
 Section: System
 Description: Repository icons for Foggy's Repository.
 Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/files/repoicons/
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.repoicons
 Name: Foggy's Repository Icons
 
 Package: com.foggy.whitestuff
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Foggy <foggyj12345@gmail.com>
+Depends: com.foggy.repoicons
 Filename: ./debs/WhiteStuff_1.0.deb
-Size: 815328
-MD5sum: 9404e14df737ea3048785548519e1ff8
-SHA1: 144d248bd4f4639668026c455e307e8a3f6d7177
-SHA256: 1103b4d6716c42d9913f4a6fbbed822a301f9ada46f03a1aa90433d0c4a91353
+Size: 815344
+MD5sum: fd5d033ca49b4ebd5b90060d8731f2f0
+SHA1: 4e0ff6a48962a5a3eb4b08ed318132613acbd050
+SHA256: 22fd7cd8272a4e3a9b51536f0a9283fa7a9d78ce194d518ad532422e946d7b17
 Section: Themes
 Description: A purple gradient icon theme with bright white backgrounds.
 Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/files/whitestuff/
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.whitestuff
 Name: WhiteStuff
 
