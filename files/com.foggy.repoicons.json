@@ -1,10 +1,12 @@
 {
     "name": "Foggy's Repository Icons",
+    "package": "com.foggy.repoicons",
     "author": "Foggy",
     "version": "1.0",
     "lastupdate": "16/04/2019",
     "shortdesc": "Repository icons for Foggy's Repository.",
     "longdesc": "Repository icons for Foggy's Repository.",
     "changelog": "<li class='list-group-item'>Version 1.0 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Initial Release with theme icons</li>",
-    "links": ""
+    "links": "",
+    "image": ""
 }

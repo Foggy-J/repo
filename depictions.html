@@ -17,7 +17,7 @@
             };
 
             $.getJSON('files/' + window.location.search.substring(1) + '.json', function(data) {
-                
+
                 document.title = "Foggy's Repository - " + data.name;
                 document.getElementById('name').innerHTML = data.name;
                 document.getElementById('shortd').innerHTML = data.shortdesc;
@@ -26,8 +26,9 @@
                 document.getElementById('author').innerHTML = data.author;
                 document.getElementById('version').innerHTML = data.version;
                 document.getElementById('lastupdate').innerHTML = data.lastupdate;
-                
-                
+                document.getElementById('screenshots').href = "/screenshots.html?" + window.location.search.substring(1)
+
+
 
                 if (data.links) {
                     document.getElementById('link-head').innerHTML = "<span class='fas fa-link'></span> Other Links";
@@ -60,7 +61,10 @@
             </div>
 
             <h4 style="padding-top: 10px; padding-bottom: 5px" id="link-head"></h4>
-            <div id="links" style="padding-bottom: 10px"></div>
+            <div class="list-group">
+                <a href="" class="list-group-item" target="_blank" id="screenshots">Screenshots</a>
+                <div id="links" style="padding-bottom: 10px"></div>
+            </div>
         </div>
     </body>
     <footer style="padding-top: 10px; padding-bottom: 15px">

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>?</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <link rel="icon" href="./CydiaIcon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <script>
+            if (window.location.search.substring(1)) {
+            } else {
+                location.replace("https://foggy-j.github.io/repo/");
+            };
+
+            $.getJSON('files/' + window.location.search.substring(1) + '.json', function(data) {
+
+                document.title = "Foggy's Repository - " + data.name;
+
+                if (data.image) {
+                    document.getElementById('screenshot1').src = data.image;
+                } else {
+                    document.getElementById('screenshot1').hidden = true;
+                    document.getElementById('alert').hidden = false;
+                };
+
+            });
+        </script>
+        <div class="container" style="padding-top:10px">
+            <div class="jumbotron" align="center">
+                <h1 class="display-4">Screenshots</h1>
+            </div>
+            <div style="text-align: center; padding-bottom: 10px">
+                <div class="alert alert-danger" id="alert" hidden>No images currently available</div>
+                <img src="" width="70%" alt="Screenshot 1" id="screenshot1">
+            </div>
+        </div>
+    </body>
+    <footer style="padding-top: 10px; padding-bottom: 15px">
+        <div class="container">
+            <a href="https://foggy-j.github.io/repo/" class="list-group-item" target="_blank">View Repository Homepage</a>
+            <p style="text-align: right; padding-top: 10px; color: #CDCDCD">This website uses <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>!</p>
+        </div>
+    </footer>
+</html>

@@ -1,10 +1,12 @@
 {
     "name": "WhiteStuff",
+    "package": "com.foggy.whitestuff",
     "author": "Foggy",
     "version": "1.0",
     "lastupdate": "10/04/2019",
     "shortdesc": "A purple gradient icon theme with bright white backgrounds.",
     "longdesc": "A purple gradient icon theme with bright white backgrounds. Perfect for simple setups with dark backgrounds.",
     "changelog": "<li class='list-group-item'>Version 1.0 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Initial Release with 60+ icons</li>",
-    "links": ""
+    "links": "",
+    "image": ""
 }
