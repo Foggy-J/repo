@@ -6,7 +6,7 @@
     "lastupdate": "16/04/2019",
     "shortdesc": "A very simple and subtle white theme with no icon backgrounds.",
     "longdesc": "A very simple and subtle white theme with no icon backgrounds. This theme works well with white backgrounds as well as dark backgrounds. Every icon was created with precision to make sure that all icons fit perfectly with the theme itself.",
-    "changelog": "<li class='list-group-item'>Version 1.0 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Initial Release with 60+ icons</li>",
+    "changelog": "<li class='list-group-item'>Version 1.2 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Removed Cydia icons and created seperate package for them</li><li class='list-group-item'>Version 1.1</li><li class='list-group-item'> - Added 10 new icons (eBay, Amazon, HSBC)</li><li class='list-group-item'>Version 1.0</li><li class='list-group-item'> - Initial Release with 60+ icons</li>",
     "links": "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfHHOgeTIC95nI2ITREanciBSCItg1CHYfvB5cqHeiY_tvobA/viewform' target='_blank' class='list-group-item'>Request Icon</a>",
     "image": "https://i.imgur.com/7FS3pZf.png"
 }
