@@ -93,6 +93,22 @@ Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.cydiamodernised
 Name: Modernised (Cydia)
 
+Package: com.foggy.cydiamodernised
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Depends: com.foggy.repoicons
+Filename: ./debs/Modernised_Cydia_1.2.deb
+Size: 84686
+MD5sum: ea4a77a50864f4580d106cc31ea140b7
+SHA1: eefe6b8b06cc56f9c2ed88a6c5e4d3e11422ca05
+SHA256: e714a9d3e499235d9c60bc25c869401779d4d707b2a0a1d73a0a9bcbfbdf4fdb
+Section: Themes
+Description: Cydia icons for the Modernised theme!
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.cydiamodernised
+Name: Modernised (Cydia)
+
 Package: com.foggy.repoicons
 Version: 1.0
 Architecture: iphoneos-arm
