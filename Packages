@@ -1,3 +1,20 @@
+Package: net.r-ch.iconoclasm
+Version: 1.11
+Architecture: iphoneos-arm
+Maintainer: Yanik Magnan <kirbykirbykirby@gmail.com>
+Depends: firmware (>= 4.3), preferenceloader, com.chpwn.iconsupport (>> 1.7.7)
+Conflicts: net.r-ch.fcsb, com.macciti.fiveirows, com.touchmania.fiveirows, com.touchmania.fiveirowsnorm
+Filename: ./debs/Iconoclasm_1.11.deb
+Size: 66130
+MD5sum: 06dcfa29474e0680e5333e7289c36bb5
+SHA1: 63fe58fc9c19b18175903b6721ee274b07a72e98
+SHA256: 517f1ce362ee0673cbe64609f21e5c354eb7bf0f68d763bcbbfcf5d7ba9931a9
+Section: Tweaks
+Description: easily customizable icon layout framework
+Author: Yanik Magnan <kirbykirbykirby@gmail.com>
+Name: Iconoclasm
+Pre-Depends: mobilesubstrate, gsc.armv7
+
 Package: com.foggy.modernised
 Version: 1.0
 Architecture: iphoneos-arm
