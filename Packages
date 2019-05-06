@@ -1,20 +1,3 @@
-Package: net.r-ch.iconoclasm
-Version: 1.11
-Architecture: iphoneos-arm
-Maintainer: Yanik Magnan <kirbykirbykirby@gmail.com>
-Depends: firmware (>= 4.3), preferenceloader, com.chpwn.iconsupport (>> 1.7.7)
-Conflicts: net.r-ch.fcsb, com.macciti.fiveirows, com.touchmania.fiveirows, com.touchmania.fiveirowsnorm
-Filename: ./debs/Iconoclasm_1.11.deb
-Size: 66130
-MD5sum: 06dcfa29474e0680e5333e7289c36bb5
-SHA1: 63fe58fc9c19b18175903b6721ee274b07a72e98
-SHA256: 517f1ce362ee0673cbe64609f21e5c354eb7bf0f68d763bcbbfcf5d7ba9931a9
-Section: Tweaks
-Description: easily customizable icon layout framework
-Author: Yanik Magnan <kirbykirbykirby@gmail.com>
-Name: Iconoclasm
-Pre-Depends: mobilesubstrate, gsc.armv7
-
 Package: com.foggy.modernised
 Version: 1.0
 Architecture: iphoneos-arm
@@ -140,6 +123,21 @@ Description: Repository icons for Foggy's Repository.
 Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.repoicons
 Name: Foggy's Repository Icons
+
+Package: com.foggy.seabreeze
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Foggy <foggyj12345@gmail.com>
+Filename: ./debs/SeaBreeze_0.1.deb
+Size: 81222
+MD5sum: 7f4fd21d2d951179bfb1dda5e103ae58
+SHA1: 0c7b2f88d4215725a43f9fa5a336b5a3e2ef9e7d
+SHA256: 0a52e3a528e43699dd91ff266ea320740de13b3b2a8cd6ca4cd3bf6068c73ddc
+Section: Themes
+Description: An up and coming subtle gradient theme.
+Author: Foggy <foggyj12345@gmail.com>
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.seabreeze
+Name: Sea Breeze (WIP)
 
 Package: com.foggy.whitestuff
 Version: 1.0
