@@ -1,0 +1,12 @@
+{
+    "name": "Rome",
+    "package": "com.foggy.rome",
+    "author": "Foggy",
+    "version": "1.0",
+    "lastupdate": "12/05/2019",
+    "shortdesc": "An updated version of the theme Rome.",
+    "longdesc": "An updated version of the theme Rome originally created by Maxence Parenteau. A subtle circular theme.",
+    "changelog": "<li class='list-group-item'>Version 1.0 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Initial Release with 60+ icons</li>",
+    "links": "",
+    "image": ""
+}

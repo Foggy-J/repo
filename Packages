@@ -124,6 +124,21 @@ Author: Foggy <foggyj12345@gmail.com>
 Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.repoicons
 Name: Foggy's Repository Icons
 
+Package: com.foggy.rome
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Foggy
+Filename: ./debs/Rome_1.0.deb
+Size: 213060
+MD5sum: fce590d10945ebaf37c773f3025d18c8
+SHA1: 4cd3dc73afb6b93dbfeb35613ad0d51b21d45bc8
+SHA256: 6a5f212c0e515f89c7756042f633a21ec8666269f3ae8b618d517058825d8c4b
+Section: Themes
+Description: An updated version of the theme Rome.
+Author: Foggy
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.rome
+Name: Rome (iOS 12)
+
 Package: com.foggy.seabreeze
 Version: 0.1
 Architecture: iphoneos-arm
