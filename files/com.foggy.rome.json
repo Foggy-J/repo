@@ -7,6 +7,6 @@
     "shortdesc": "An updated version of the theme Rome.",
     "longdesc": "An updated version of the theme Rome originally created by Maxence Parenteau. A subtle circular theme. ***SET CUSTOM CORNER RADIUS TO 0 TO FIX CALENDAR AND CLOCK ICON ISSUES***",
     "changelog": "<li class='list-group-item'>Version 1.2 <span class='badge badge-success'>Latest</span></li><li class='list-group-item'> - Added 5 New Icons (Ignition, Xbox, ExpressVPN etc.)</li><li class='list-group-item'>Version 1.1 </li><li class='list-group-item'> - Completed Stock Icons</li><li class='list-group-item'> - Added Reddit and Feedback Assistant</li><li class='list-group-item'>Version 1.0</li><li class='list-group-item'> - Initial Release with 60+ icons</li>",
-    "links": "",
+    "links": "<a href='https://docs.google.com/forms/d/e/1FAIpQLSeecBKj-WtlJdbWtgHL8AsHWiMCyB7gfgdOOSEzclultuwzjw/viewform' target='_blank' class='list-group-item'>Request Icon</a>",
     "image": ""
 }
