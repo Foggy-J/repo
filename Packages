@@ -184,34 +184,3 @@ Author: Foggy
 Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.rome
 Name: Rome (iOS 12)
 
-Package: com.foggy.seabreeze
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: Foggy <foggyj12345@gmail.com>
-Filename: ./debs/SeaBreeze_0.1.deb
-Size: 81222
-MD5sum: 7f4fd21d2d951179bfb1dda5e103ae58
-SHA1: 0c7b2f88d4215725a43f9fa5a336b5a3e2ef9e7d
-SHA256: 0a52e3a528e43699dd91ff266ea320740de13b3b2a8cd6ca4cd3bf6068c73ddc
-Section: Themes
-Description: An up and coming subtle gradient theme.
-Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.seabreeze
-Name: Sea Breeze (WIP)
-
-Package: com.foggy.whitestuff
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Foggy <foggyj12345@gmail.com>
-Depends: com.foggy.repoicons
-Filename: ./debs/WhiteStuff_1.0.deb
-Size: 815344
-MD5sum: fd5d033ca49b4ebd5b90060d8731f2f0
-SHA1: 4e0ff6a48962a5a3eb4b08ed318132613acbd050
-SHA256: 22fd7cd8272a4e3a9b51536f0a9283fa7a9d78ce194d518ad532422e946d7b17
-Section: Themes
-Description: A purple gradient icon theme with bright white backgrounds.
-Author: Foggy <foggyj12345@gmail.com>
-Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.whitestuff
-Name: WhiteStuff
-
