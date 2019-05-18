@@ -199,3 +199,18 @@ Author: Foggy
 Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.rome
 Name: Rome (iOS 12)
 
+Package: com.foggy.rome
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Foggy
+Filename: ./debs/Rome_1.5.deb
+Size: 376098
+MD5sum: 2c107b69da35085658aff154090348f1
+SHA1: bd0565cb2856535467afc2d3b58bf8cd8e4e31cc
+SHA256: 4d67f4882a4f8746f47fa0eba8c3109e1f2ab6db6bb54992fbe7ff02f6901655
+Section: Themes
+Description: An updated version of the theme Rome.
+Author: Foggy
+Depiction: https://foggy-j.github.io/repo/depictions.html?com.foggy.rome
+Name: Rome (iOS 12)
+
