@@ -14,17 +14,33 @@
             $.getJSON('files/com.foggy.modernised.json', function(data) {
                 document.getElementById('modern-version').innerHTML = 'Latest Version: ' + data.version;
             });
+
+            $.getJSON('files/com.foggy.rome.json', function(data) {
+                document.getElementById('rome-version').innerHTML = 'Latest Version: ' + data.version;
+            });
         </script>
         <div class="container" style="padding-top:10px">
             <div class="jumbotron" align="center"> <img src="CydiaIcon.png" width="128" height="128" alt=""/>
-                <h1 class="display-4">Welcome to Foggy's Repo</h1>
+                <h1 class="display-4" style="font-weight: 700">Welcome to Foggy's Repo</h1>
                 <hr class="my-4">
-                <p>This repository consists of themes that have been created by Foggy</p>
-                <a class="btn btn-success" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://foggy-j.github.io/repo/">Add Repository to Cydia</a> </div>
+                <p>A vast collection of professionally created themes created by Foggy</p>
+                <a class="btn btn-danger" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://foggy-j.github.io/repo/">Add Repository to Cydia</a>
+                <div style="padding-bottom: 10px"></div>
+                <a class="btn btn-info" href="sileo://source/https://foggy-j.github.io/repo/">Add Repository to Sileo</a>
+            </div>
             <h2 align="center" style="padding-bottom:10px">Currently Uploaded Themes</h2>
             <!-- Card Decks -->
             <div class="card-deck"> 
                 <!-- Card Deck 1 -->
+                <div class="card"> <!--<img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Rome <span class="badge badge-success">Active</span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted" id="rome-version">Latest Version: </h6>
+                        <p class="card-text">An updated version of the subtle circular theme Rome.</p>
+                    </div>
+                    <div class="card-footer"> <a href="depictions.html?com.foggy.rome" class="btn btn-success btn-sm">Explore Theme</a> </div>
+                </div>
+                <!-- Card Deck 2 -->
                 <div class="card"> <!--<img src="..." class="card-img-top" alt="..."> -->
                     <div class="card-body">
                         <h5 class="card-title">Modernised <span class="badge badge-warning">WIP</span></h5>
@@ -32,15 +48,6 @@
                         <p class="card-text">A very simple and subtle white theme with no icon backgrounds.</p>
                     </div>
                     <div class="card-footer"> <a href="depictions.html?com.foggy.modernised" class="btn btn-success btn-sm">Explore Theme</a> </div>
-                </div>
-                <!-- Card Deck 2 -->
-                <div class="card"> <!--<img src="..." class="card-img-top" alt="..."> -->
-                    <div class="card-body">
-                        <h5 class="card-title">Rome <span class="badge badge-success">Active</span></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Latest Version: 1.4</h6>
-                        <p class="card-text">An updated version of the subtle circular theme Rome.</p>
-                    </div>
-                    <div class="card-footer"> <a href="depictions.html?com.foggy.rome" class="btn btn-success btn-sm">Explore Theme</a> </div>
                 </div>
             </div>
         </div>
